@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +12,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  .stopwatch {
+    text-align: left;
+    font-family: monospace;
+    font-size: 1.3em;
+  }
+
+  .stopwatch_container {
+    width: 690px;
+    margin: auto;
+    padding: 3em 0 3em;
+  }
+
+  button {
+    min-width: 90px;
+  }
